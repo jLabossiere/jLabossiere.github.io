@@ -14,7 +14,7 @@ self.addEventListener('install', event => {
           'img/coding_d.jpg',
           'img/coding_b.jpg',
           'img/coding_a.jpg',
-          'icon.png',
+          'img/icon.png',
         ]
       );
     })
