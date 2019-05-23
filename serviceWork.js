@@ -1,9 +1,5 @@
 const myCacheName = 'portfolio-V2'
 
-//bjkbob
-//reubgfiuw
-//gnfebf
-//grryvfi
 self.addEventListener('install', event => {
   console.log('installed')
   event.waitUntil(
@@ -18,6 +14,7 @@ self.addEventListener('install', event => {
           'img/coding_d.jpg',
           'img/coding_b.jpg',
           'img/coding_a.jpg',
+          'icon.png',
         ]
       );
     })
