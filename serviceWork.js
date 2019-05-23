@@ -1,18 +1,30 @@
-const myCacheName = 'portfolio-V1'
+const myCacheName = 'portfolio-V2'
 
-self.addEventListener('installed', event => {
+//bjkbob
+//reubgfiuw
+//gnfebf
+//grryvfi
+self.addEventListener('install', event => {
+  console.log('installed')
   event.waitUntil(
     caches.open(myCacheName).then(function (cache) {
       return cache.addAll(
         [
-          '/css/styles.css',
           '/app.js',
-          '/index.html'
+          '/index.html',
+          '/serviceWork.js',
+          '/css/styles.css',
+          'img/coding_c.jpg',
+          'img/coding_d.jpg',
+          'img/coding_b.jpg',
+          'img/coding_a.jpg',
         ]
       );
     })
   );
 })
+
+// dheqvfiuqvf
 
 self.addEventListener('activate', function (event) {
   event.waitUntil(
@@ -26,6 +38,7 @@ self.addEventListener('activate', function (event) {
       );
     })
   );
+  console.log('activated')
 });
 
 self.addEventListener('fetch', function (event) {
