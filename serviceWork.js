@@ -15,6 +15,7 @@ self.addEventListener('install', event => {
           'img/coding_b.jpg',
           'img/coding_a.jpg',
           'img/icon.png',
+          'manifest.json',
         ]
       );
     })
