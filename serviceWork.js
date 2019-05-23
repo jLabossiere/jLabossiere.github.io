@@ -1,4 +1,4 @@
-const myCacheName = 'portfolio-V2'
+const myCacheName = 'portfolio-V3'
 
 self.addEventListener('install', event => {
   console.log('installed')
